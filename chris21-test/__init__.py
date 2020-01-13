@@ -5,6 +5,7 @@ import azure.functions as func
 
 def main(req: func.HttpRequest) -> func.HttpResponse:
     try:
+        import pandas
         wsdl = 'http://google.com'
         # headers = {'content-type': 'text/xml'}
 
