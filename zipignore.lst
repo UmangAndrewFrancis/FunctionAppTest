@@ -1,0 +1,4 @@
+*.zip
+untracked/
+test/
+test/*
